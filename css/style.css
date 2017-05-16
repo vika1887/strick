@@ -1,0 +1,337 @@
+
+ * {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+ }
+
+ body {background-color: #f6f9f9;}
+
+ .clearfix:before,
+ .clearfix:after {
+    content: " ";
+    display: table;
+ }
+ .clearfix:after {clear: both;}
+
+ .container {
+    width: 1140px;
+    margin: 0 auto;
+ }
+
+ .logo {
+    display: inline-block;
+    width: 198px;
+    margin-left: 28px;
+    padding: 43px 0 35px 0;
+    background: url("../image/logo.png") no-repeat left 32px;
+ }
+
+ .logo span {
+    margin-left: 50px;
+    font: bold 30px/20px 'Lato', sans-serif;
+    color: #2d3950;
+    text-transform: uppercase;
+ }
+
+ .banner-bg {
+    background: url("../image/banner-bg.png") no-repeat;
+    background-size: cover;
+ }
+ .banner {
+    color: #FFFFFF;
+    text-align: center;
+ }
+ .banner h1 {
+    padding-top: 188px;
+    font: bold 120px 'Lato', sans-serif;
+    text-transform: uppercase;
+ }
+ .banner h1:after {
+    position: relative;
+    bottom: -8px;
+    left: 24%;
+    display: block;
+    content: "";
+    height: 2px;
+    width: 53%;
+    background-color: #15a4fa;
+ }
+ .banner p {
+    margin-top: 30px;
+    font: 20px/47px 'Lato', sans-serif;
+ }
+ .inpt-btn {
+    margin: 52px 0 280px 0;
+    padding: 3px 30px 4px 30px;
+    font: 18px/47px 'Lato', sans-serif;
+    color: #FFFFFF;
+    background: transparent;
+    border: 1px solid #15a4fa;
+    border-radius: 3px;
+    -webkit-transition: all 0.6s ease-out;
+       -moz-transition: all 0.6s ease-out;
+         -o-transition: all 0.6s ease-out;
+            transition: all 0.6s ease-out;
+ }
+ .inpt-btn:hover,
+ .inpt-btn:focus,
+ .inpt-btn:active {
+     background: #15a4fa;
+     -webkit-transition: all 0.5s ease-in;
+        -moz-transition: all 0.5s ease-in;
+          -o-transition: all 0.5s ease-in;
+             transition: all 0.5s ease-in;
+ }
+
+ .box {
+     padding-top: 72px;
+     font: 20px/32px 'Lato', sans-serif;
+     text-align: center;
+ }
+ .box h3 {
+     font: 40px 'Lato', sans-serif;
+     color: #2d3950;
+ }
+ .box p {
+    margin: 15px 0 100px 0;
+    font: 20px/32px 'Lato', sans-serif;
+    color: #2d3950;
+ }
+ .box-icon {
+    padding: 73px 0 65px 0;
+    background: #fff;
+ }
+ .icon {
+    display: inline-block;
+    width: 33%;
+    padding: 0 40px;
+    text-align: center;
+ }
+ .icon h4 {
+    font: 22px 'Lato', sans-serif;
+    color: #2d3950;
+ }
+ .icon p {
+    font: 15px/22px 'Lato', sans-serif;
+    color: #2d3950;
+ }
+ .icon a {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 25px;
+    text-decoration: none;
+    background: url("../image/ic-sprite.png");
+    border: 3px solid  transparent;
+ }
+ .icon a.link-device { background-position: 545px 0;}
+ .icon a.link-desing { background-position: 0 0;}
+ .icon a.link-font { background-position: 435px 0;}
+
+ .icon a.link-device:hover,
+ .icon a.link-desing:hover,
+ .icon a.link-font:hover {border: 3px solid #1e90ff;}
+
+ .portfolio {
+    position: relative;
+    padding: 80px 0 100px 0;
+    text-align: center;
+ }
+ .portfolio-text {
+    display: inline-block;
+    width: inherit;
+    margin-bottom: 80px;
+ }
+ .portfolio-text h3 {
+    font: 41px 'Lato', sans-serif;
+    color: #2d3950;
+ }
+ .portfolio-text p {
+    font: 15px/23px 'Lato', sans-serif;
+    color: #2d3950;
+ }
+ .view {
+    position: relative;
+    float: left;
+    width: 360px;
+    height: 260px;
+    margin: 10px;
+    text-align: center;
+    background: #fff;
+    overflow: hidden;
+    cursor: default;
+ }
+ .view .mask {
+    width: 360px;
+    height: 260px;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+ }
+ .view img {
+    position: relative;
+    display: block;
+ }
+ .view a.info, .view a.in {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: transparent;
+ }
+ .view a.info:hover, .view a.in:hover {background: #15a4fa;}
+ .view a.info:first-child,  .view a.in:first-child{margin-right: 25px;}
+ .view-pr img {
+    -webkit-transition: all 0.4s ease-in-out 0.5s;
+       -moz-transition: all 0.4s ease-in-out 0.5s;
+         -o-transition: all 0.4s ease-in-out 0.5s;
+            transition: all 0.4s ease-in-out 0.5s;
+ }
+ .view-pr .mask {
+    background-color: rgba(21,164,250,0.7);
+    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
+        filter: alpha(opacity=0);
+       opacity: 0;
+    -webkit-transition: all 0.3s ease-in 0.4s;
+       -moz-transition: all 0.3s ease-in 0.4s;
+         -o-transition: all 0.3s ease-in 0.4s;
+            transition: all 0.3s ease-in 0.4s;
+ }
+ .view-pr a.info, .view-pr a.in {
+    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
+        filter: alpha(opacity=0);
+       opacity: 0;
+    -webkit-transform: translateY(50px);
+       -moz-transform: translateY(50px);
+        -ms-transform: translateY(50px);
+         -o-transform: translateY(50px);
+            transform: translateY(50px);
+    -webkit-transition: all 0.3s ease-in-out 0.1s;
+       -moz-transition: all 0.3s ease-in-out 0.1s;
+         -o-transition: all 0.3s ease-in-out 0.1s;
+            transition: all 0.3s ease-in-out 0.1s;
+ }
+ .view-pr:hover .mask {
+    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
+        filter: alpha(opacity=100);
+       opacity: 1;
+    -webkit-transition-delay: 0s;
+       -moz-transition-delay: 0s;
+         -o-transition-delay: 0s;
+            transition-delay: 0s;
+ }
+ .view-pr:hover img {
+    -webkit-transition-delay: 0s;
+       -moz-transition-delay: 0s;
+         -o-transition-delay: 0s;
+            transition-delay: 0s;
+ }
+ .view-pr:hover a.info, .view-pr:hover a.in {
+    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
+        filter: alpha(opacity=100);
+       opacity: 1;
+    -webkit-transform: translateY(100px);
+       -moz-transform: translateY(100px);
+        -ms-transform: translateY(100px);
+         -o-transform: translateY(100px);
+            transform: translateY(100px);
+    -webkit-transition-delay: 0.3s;
+       -moz-transition-delay: 0.3s;
+         -o-transition-delay: 0.3s;
+            transition-delay: 0.3s;
+ }
+
+ .form-bg {
+    text-align: center;
+    background: url("../image/form-bg.jpg") no-repeat;
+    background-size:cover;
+ }
+ .form {
+     display: inline-block;
+     width: 566px;
+     padding: 70px 0 111px 0;
+ }
+
+ .form h3 {
+    margin-bottom: 16px;
+    font: 41px 'Lato', sans-serif;
+    color: #fff;
+ }
+ .form p {
+    margin-bottom: 45px;
+    font: 15px/23px 'Lato', sans-serif;
+    color: #999;
+ }
+ .input-form {
+     width: 100%;
+     margin-bottom: 18px;
+     padding: 25px 0 20px 15px;
+     font: 15px 'Lato', sans-serif;
+     color: #fff;
+     text-transform: capitalize;
+     background: transparent;
+     border: 1px solid #999;
+     -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+             border-radius: 3px;
+ }
+ .input-form:focus {
+    color: #fff;
+    border: 1px solid #fff;
+ }
+ .input-check {
+    margin-right: 251px;
+    font: 15px 'Lato', sans-serif;
+    color: #babdc4;
+ }
+ input[type="submit"] {
+    padding: 14px 56px;
+    font: 15px 'Lato', sans-serif;
+    color: #fff;
+    text-transform: capitalize;
+    background: transparent;
+    border: 1px solid #15a4fa;
+    -webkit-border-radius: 3px;
+       -moz-border-radius: 3px;
+            border-radius: 3px;
+ }
+ input[type="submit"]:hover {background: #15a4fa;}
+
+ .footer {padding: 25px 0 10px 0;}
+ .footer-social { float: right;}
+ .social {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    text-decoration: none;
+    background: url("../image/s-ic.png");
+ }
+ .facebook { background-position: 0 0;}
+ .twitter { background-position: 48px 0; }
+ .google { background-position: 100px 0;}
+ .in { background-position: 150px 0;}
+
+ .social:hover { background: url("../image/s-ic-hover.png");}
+ .facebook:hover { background-position: 0 0;}
+ .twitter:hover { background-position: 51px 0; }
+ .google:hover { background-position: 96px 0;}
+ .in:hover { background-position: 138px 0;}
+
+ .footer-info {
+    float: left;
+    width: 180px;
+    height: 40px;
+ }
+ .footer-info p {
+    font: 15px/30px 'Lato', sans-serif;
+    color: #acacac;
+ }
+
+

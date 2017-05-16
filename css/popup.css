@@ -1,0 +1,96 @@
+ .mfp-bg {
+    position: absolute;
+    background: #fff;
+    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=.8)";
+        filter: alpha(opacity=.8);
+       opacity: .8;
+ }
+
+ .mfp-zoom-out-cur  .view, .mfp-zoom-out-cur  .view-pr {
+    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
+        filter: alpha(opacity=0);
+       opacity: 0;
+ }
+ button.mfp-arrow.mfp-arrow-left.mfp-prevent-close:hover,
+ button.mfp-arrow.mfp-arrow-right.mfp-prevent-close:hover {
+    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
+        filter: alpha(opacity=0);
+        opacity: 0;
+ }
+
+ button.mfp-arrow {
+    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
+        filter: alpha(opacity=0);
+        opacity: 0;
+ }
+
+ .mfp-close {
+    position: absolute;
+    top: 20px;
+    right: 0;
+    margin-right: 30px;
+    text-align: center;
+ }
+ .mfp-close:hover {
+    background: #fa4b15;
+    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=1)";
+        filter: alpha(opacity=1);
+        opacity: 1;
+ }
+ .mfp-close:focus {
+    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=1)";
+        filter: alpha(opacity=1);
+        opacity: 1;
+ }
+ .mfp-close:active {top: 20px;}
+
+ button.mfp-close {
+    display: block;
+    z-index: 1046;
+    color: #FFF;
+    background: #15a4fa;
+    overflow: visible;
+    cursor: pointer;
+    -webkit-appearance: none;
+    box-shadow: none;
+    touch-action: manipulation;
+    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=1)";
+        filter: alpha(opacity=1);
+       opacity: 1;
+ }
+ .mfp-image-holder .mfp-close,
+ .mfp-iframe-holder .mfp-close {
+    width: 40px;
+    height: 40px;
+    padding-right: 10px;
+    color: #FFF;
+ }
+ .mfp-bottom-bar{
+    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
+        filter: alpha(opacity=0);
+       opacity: 0;
+ }
+
+ .mfp-content {
+    position: relative;
+    top: 50px;
+    vertical-align: middle;
+    z-index: 1045;
+    display: inline-block;
+    margin: 0 auto;
+    text-align: left;
+ }
+
+ img.mfp-img {
+    display: block;
+    width: 1141px;
+    max-width: 100%;
+    max-height: 100% !important;
+    padding: 40px 0 40px;
+    margin: 0 auto;
+    line-height: 0;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+ }
+ 
